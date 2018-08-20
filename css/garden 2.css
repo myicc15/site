@@ -1,0 +1,410 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    background-color: #2A1029; 
+}
+
+nav a:hover {
+    color: rgb(236, 105, 51);
+}
+
+nav a:hover {
+    color: rgb(236, 105, 51);
+}
+
+.nav-button-orange.nav-link {
+    transition: all 0.2s ease;
+    margin: 0px 30px;	
+    
+}
+	
+
+
+.nav-link {
+	margin: 0px 30px;
+}
+
+.nav-button-orange:hover {
+    color: rgb(236, 105, 51);
+    
+}
+
+nav a {
+    color: #ffffff;
+}
+
+header {
+    background-image: url(../images/Untitled-3.jpg);
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size : 2400px 1400px;
+}
+
+
+
+header a {
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 20px 45px;
+    border: 1px solid white;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+header a:hover {
+    background-color: #ffffff;
+    color: rgba(236, 105, 51, 1);
+}
+
+.decorbox {
+    background-color: rgba(236, 105, 51, 0.5);
+    padding-bottom: 250px;
+    padding-top: 250px;
+}
+
+header h1 {
+    font-size: 145px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+header h2 {
+    margin-bottom: 60px;
+	font-weight: 200px;
+	
+}
+
+header h1,
+header h2 {
+    color: #ffffff;
+}
+
+.who-we-are {
+    color: #290f28;
+    padding-top: 110px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.subheadline {
+    font-size: 20px;
+}
+
+.paragraph {
+    font-size: 16px;
+}
+
+.who-we-are-inner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1040px;
+}
+
+.who-we-are img {
+	margin-top: 50px;
+	
+}
+
+.body {
+	background-image: url(../images/footer-image-V03-01.svg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	text-align: center;
+	
+	
+}
+
+
+.how-we-work {
+   
+    padding-top: 115px;
+}
+
+.how-we-work .subheadline {
+    margin-bottom: 70px;
+}
+
+.how-we-work h2 {
+    margin-top: 30px;
+
+}
+
+
+
+
+.why-us {
+  
+    text-align: center;
+    background-repeat: no-repeat;
+   ;
+	padding-top: 100px;
+}
+
+.mountain {
+	margin-top: -400px;
+
+}
+
+.why-us p {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #2a1029;
+    padding: 65px;
+}
+
+footer h1 {
+    color: #ed7243;
+}
+
+footer a {
+    color: #ed7243;
+}
+
+footer input {
+    width: 100%;
+}
+.navbar-toggler {
+	color: #FFFFFF;
+}
+.social-icons {
+	margin-right: 20px;
+}
+
+/* Float four columns side by side */
+.col {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width:401px){
+    header h1 {
+        font-size: 50px;
+		font-weight: 500;
+		text-transform: uppercase;
+    }
+  
+	
+	
+.why-us {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center bottom;
+    padding-bottom: 200px;
+}
+
+header h2 {
+    margin-bottom: 60px;
+	font-size: 16px;
+	font-weight: 400;	
+}
+
+.who-we-are {
+    color: #290f28;
+    padding-top: 60px;
+    text-align: center;
+	font-size: 16px;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.subheadline {
+	font-size: 16px;
+	margin-top: -15px;
+}
+
+.paragraph {
+	font-size: 14px;
+}
+
+.who-we-are-inner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+.row .col.icons-how-we-work {
+	margin-top: 30px;
+}
+.footer {
+	font-size: 12px;
+	width: 350px;
+	font-weight: lighter;
+}
+.my-4 {
+	color: #FFFFFF;
+	border-color: #C9C9C9;
+	border-width: thin;
+}
+
+.who-we-are img {
+	margin-top: 50px;
+	max-width: 250px;	
+}
+
+.how-we-work {
+    text-align: center;
+    padding-top: 90px;
+	font-size: 40px;
+    font-weight: 500;
+   
+}
+
+.how-we-work .subheadline {
+	margin-bottom: 50px;
+	font-size: 16px;
+	font-weight: normal;
+	margin-top: -15px;
+	margin-right: 0px;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #2a1029;
+    padding: 45px;
+	
+}
+
+footer .h1 {
+    color: #ed7243;
+	font-size: 16px;
+}
+
+footer a {
+    color: #ed7243;
+	font-size: 12px;
+}
+
+footer input {
+    width: 100%;
+	font-size: 12px;
+}
+.navbar-toggler {
+	color: #FFFFFF;
+}
+	
+		.nav-link {
+		text-align: left;
+	}
+.mountain {
+	margin-top: 80px;
+	
+
+}
+	
+	.touch {
+			font-size: 20px;
+	}
+
+.mar-left {
+		margin-left: 20px;
+}
+	
+@media screen and (max-width: 600px){
+.col.icons-margin.social {
+	min-width: 450px;
+	margin-top: 40px;
+}
+	footer {
+	color: #ffffff;
+	background-color: #2a1029;
+	padding-top: 90px;
+}
+
+footer h1 {
+    color: #ed7243;
+	font-size: 16px;
+}
+
+footer a {
+    color: #ed7243;
+	font-size: 12px;
+}
+
+footer input {
+    width: 100%;
+	font-size: 12px;
+}
+	
+
+	
+.row.footer-margin {
+	margin-top: -50px;
+}
+.social-icon-650-margin {
+	margin-right: 5px;
+}
+	header h1 {
+        font-size: 80px;
+		font-weight: 700;
+		text-transform: uppercase;
+}
+		.nav-item .nav-link {
+		text-align: left;
+	}
+	
+header h2 {
+    margin-bottom: 60px;
+	font-size: 20px;
+	font-weight: 400;	
+	}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .col  {
+        width: 50%;
+		display: block;
+		margin-bottom: 40px;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col  {
+       width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    }
+}
